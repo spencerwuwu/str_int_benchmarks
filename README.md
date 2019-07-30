@@ -1,7 +1,7 @@
 # str_int_benchmarks
 
 This repository contains smt benchmarks using **str.to.int** and **int.to.str**. We collected/rewrote python programs
-using `int()`, concolic tested them with [Py-Conbyte](https://github.com/spencerwuwu/py-conbyte), and collected the smt
+using `int()`, performed concolic testing them with [Py-Conbyte](https://github.com/spencerwuwu/py-conbyte), and collected the smt
 queries into these benchmarks.
 
 [full_str_int](full_str_int/) contains all smt queries generated during concolic testing. We used CVC4 to filter 
